@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Current item: {{ item_num }}</h1>
+<p>Time here: </p>
+<p>Question</p>
+<p>Choices</p>
+
+{% if item_num < 10 %}
+    <a href="/test/{{nextitem_num}}">Next Item</a>
+{% else %}
+    <a href="/results">Finished</a>
+{% endif %}
+{% endblock %}
