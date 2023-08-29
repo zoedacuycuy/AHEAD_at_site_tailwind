@@ -1,6 +1,6 @@
-# AHEAD_AT_site
+# AHEAD_AT_site_tailwind 
 
-This repository serves as the website for AHEAD's Adaptive Testing Website.
+This is the same repository as the  AHEAD_AT_site, however to preserve the basic structure made by will (@wilyanse) I made a separate repository but with tailwind and bootstrap configuration. Take note that the login.html and register.html is coded with bootstrap. While the base.html(/navbar) is coded with tailwind. 
 
 # Table of Contents
 
@@ -15,6 +15,7 @@ The site is made with Django so to use this repository, Python and Django should
     - OPTIONAL BUT RECOMMENDED: Create Python [Virtual Environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
 3. Clone the repository using `git clone [repository link]`
 4. Install the requirements using `pip install -r requirements.txt`
+5. To run with tailwind type `python manage.py tailwind start` in terminal before typing `python manage.py runserver`
 
 ## Project Structure
 
